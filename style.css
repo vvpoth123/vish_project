@@ -1,0 +1,133 @@
+/* Center align headings */
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1{
+
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+h2{
+     
+        font-family: "Italianno", cursive;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 37px;
+      
+      
+}
+
+ol{
+    
+
+
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.display-area {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    min-height: 50px;
+}
+
+.tick, .cross {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.tick {
+    color: green;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.cross {
+    color: red;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+body{
+    background-color: #f2f542;
+}
+/* style.css */
+
+/* Style for the submit button */
+input[type="button"] {
+    font-size: 18px;  /* Make the text larger */
+    padding: 10px 20px;  /* Add some padding to make the button bigger */
+    background-color: #4CAF50;  /* Green background color */
+    color: white;  /* White text color */
+    border: none;  /* Remove default border */
+    border-radius: 5px;  /* Add rounded corners */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);  /* Add a shadow effect */
+    transition: box-shadow 0.3s ease;  /* Smooth transition for shadow effect */
+}
+
+/* Shadow effect on hover */
+input[type="button"]:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+}

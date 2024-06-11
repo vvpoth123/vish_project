@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Selection Display</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .result {
+            display: none;
+            margin-top: 10px;
+        }
+        .correct {
+            color: green;
+        }
+        .wrong {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Who am I🤔🤔?</h1>
+    <h2>Let's know how good you know about Vishnu's friend circle</h2>
+    <h3>Read the questions below and then select the suitable person.</h3>
+    <ol>
+        <li>
+            I know Vishnu from the date of joining. I have a very good coordination in exams with the front bench. I copy in exams just sitting in the 2nd bench. <b>Who am I?</b>
+            <br>
+            <label for="q1"><b>Choose a person:</b></label>
+            <select id="q1" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+            </select>
+            <div class="result" id="result-q1"></div>
+        </li>
+        <br>
+        <li>
+            I am the only person from Telugu states in the DCC club from our batch. I recently got elected as the programming lead of our club. Right now I am a LinkedIn Mentee and I am also an upcoming intern at Meta (formerly Facebook). <b>Who am I?</b>
+            <br> 
+            <label for="q2"><b>Choose a person:</b></label>
+            <select id="q2" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q2"></div>
+        </li>
+        <br>
+        <li>
+            I know Vishnu in the first year of our college. He likes me so much. But he was too late in proposing to me. Since I am pretty, I got taken by away by someone. That's why making decisions, too late is dangerous. <b>Who am I?</b>
+            <br> 
+            <label for="q3"><b>Choose a person:</b></label>
+            <select id="q3" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q3"></div>
+        </li>
+        <br>
+        <li>
+            Once I was the best friend of Vishnu's friend. We both used to roam together and shared everything. Over the semesters, the friendship started deteriorating, and now she even started avoiding me and doesn't like to sit near me. <b>Who am I?</b>
+            <br> 
+            <label for="q4"><b>Choose a person:</b></label>
+            <select id="q4" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q4"></div>
+        </li>
+        <br>
+        <li>
+            Vishnu has a crush on me from the 3rd semester. But I am in love with a good programmer from college so that I can use him for my OA round. <b>Who am I?</b>
+            <br> 
+            <label for="q5"><b>Choose a person:</b></label>
+            <select id="q5" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q5"></div>
+        </li>
+        <br>
+        <li>
+            I am Bengali. But I like learning Telugu a lot. I am Vishnu's best friend. <b>Who am I?</b>
+            <br> 
+            <label for="q6"><b>Choose a person:</b></label>
+            <select id="q6" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q6"></div>
+        </li>
+        <br>
+        <li>
+            I knew Vishnu from the 3rd semester. He shares everything with me and so do I. He learns from me all the important topics, and Vishnu strongly believes I am the savior of his exams. <b>Who am I?</b>
+            <br> 
+            <label for="q7"><b>Choose a person:</b></label>
+            <select id="q7" class="options"> 
+                <option value="" disabled selected>Please select</option>
+                <option value="Akshaya">Akshaya</option>
+                <option value="Subbareddy">Subbareddy</option>
+                <option value="Vinay">Vinay</option>
+                <option value="Lasya">Lasya</option>
+                <option value="Likitha">Likitha</option>
+                <option value="Ravi">Ravi</option>
+                <option value="Hrishav">Hrishav</option>
+                <option value="Aindrela">Aindrela</option>
+                <option value="Arnab">Arnab</option>
+                <option value="Neethu">Neethu</option>
+            </select>
+            <div class="result" id="result-q7"></div>
+        </li>
+    </ol>
+    <br>
+    <div class="submit-container">
+        <input type="button" value="Submit" onclick="checkAnswers()">
+        <div id="totalCorrect"></div>
+    </div>
+    <script>
+        function checkAnswers() {
+            const correctAnswers = {
+                q1: 'Subbareddy',
+                q2: 'Lasya',
+                q3: 'Neethu',
+                q4: 'Akshaya',
+                q5: 'Aindrela',
+                q6: 'Hrishav',
+                q7: 'Arnab'
+            };
+
+            let correctCount = 0;
+
+            for (let i = 1; i <= 7; i++) {
+                const questionId = 'q' + i;
+                const resultId = 'result-' + questionId;
+                const selectedValue = document.getElementById(questionId).value;
+                const resultElement = document.getElementById(resultId);
+
+                if (selectedValue === correctAnswers[questionId]) {
+                    resultElement.innerHTML = "Correct!";
+                    resultElement.className = "result correct";
+                    correctCount++;
+                } else {
+                    resultElement.innerHTML = "Wrong!";
+                    resultElement.className = "result wrong";
+                }
+                resultElement.style.display = "block";
+            }
+
+            document.getElementById('totalCorrect').innerHTML = "Total correct answers: " + correctCount;
+        }
+    </script>
+
+</body>
+</html>
